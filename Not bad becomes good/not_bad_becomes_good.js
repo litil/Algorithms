@@ -9,7 +9,7 @@ function replaceNotBadByGood(myString){
     } 
     
     // check if "bad" exists after not
-    var stringFromNot = myString.substring(indexOfNot, string.length +1);
+    var stringFromNot = myString.substring(indexOfNot, myString.length +1);
     var indexOfBadInSubstring = stringFromNot.indexOf("bad");
     if (indexOfBadInSubstring == -1){
         return myString;
